@@ -1,4 +1,26 @@
 table {
-  /*margin: 10px;*/
+  margin: 0 auto;
   border: red;
 }
+
+header {
+  text-align: center;
+}
+
+body {
+  background: url(everest.jpg);
+  background-size: cover;
+}
+
+#gif-div {
+width: 60%;
+margin-right: 10%;
+margin-left: 30%;
+}
+
+/*.gif-link{
+  width: 60%;
+margin-right: 20%;
+margin-left: 20%;
+
+}*/
