@@ -1,0 +1,17 @@
+<table>
+<tr>
+  <th>Description</th>
+  <th>Due date</th>
+</tr>
+<% @items.each do |item| %>
+  <tr>
+
+    <td class="todo-item"><a href="/items/<%=item.id%>"> <%= item.description %></td>
+    <td> <%= item.due_date %></td>
+  </tr>
+<% end %>
+</table>
+
+<div id="gif-div"></div>
+
+
